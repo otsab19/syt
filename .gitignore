@@ -1,0 +1,64 @@
+./notes/*
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+go.mod
+# Vendor directory (if not using Go modules)
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories (if any)
+Godeps/
+
+# Logs
+*.log
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.patch
+
+# Build output
+bin/
+build/
+dist/
+
+# Coverage files
+*.cover
+*.cov
+*.coverage
+
+# Cache files
+*.cache
+*.tmp
+.cache/
+tmp/
+
+# Environment variables and configuration
+.env
+.env.*
+
+# Testing
+testdata/
+
+# Generated files
+*.gen.go
